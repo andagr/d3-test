@@ -17,5 +17,9 @@
         "quotes": ["error", "double"],
         "semi": ["error", "always"],
         "no-multiple-empty-lines": "off"
-    }
+    },
+    "ignorePatterns": [
+        "node_modules/",
+        "dist/"
+    ]
 }

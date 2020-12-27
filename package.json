@@ -7,25 +7,17 @@
     "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andagr/d3-test.git"
+  },
   "author": "",
   "license": "ISC",
-  "browserslist": [
-    "last 1 Chrome version"
-  ],
-  "dependencies": {
-    "d3": "^6.2.0",
-    "data": "^0.6.1"
+  "bugs": {
+    "url": "https://github.com/andagr/d3-test/issues"
   },
+  "homepage": "https://github.com/andagr/d3-test#readme",
   "devDependencies": {
-    "@types/d3": "^5.7.2",
-    "@typescript-eslint/eslint-plugin": "^4.3.0",
-    "@typescript-eslint/parser": "^4.3.0",
-    "eslint": "^7.10.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "typescript": "^4.0.3"
+    "parcel": "^1.12.4"
   }
 }
